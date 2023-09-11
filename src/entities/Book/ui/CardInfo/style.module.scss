@@ -1,0 +1,47 @@
+.card-i {
+  margin: 50px 0;
+  display: flex;
+  gap: 50px;
+
+  .info-h {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .h-img {
+      width: 250px;
+      box-shadow: 4px 2px 14px 0;
+      height: 350px;
+    }
+  }
+
+  .info-b {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .i-category {
+      color: #9fa5a8;
+      font-size: 15px;
+    }
+
+    .i-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .i-author {
+      color: #9fa5a8;
+      font-size: 15px;
+      text-decoration: underline;
+    }
+
+    .i-desc {
+      padding: 10px;
+      border: 1px solid rgba(159, 165, 168, 0.5);
+      white-space: break-spaces;
+      text-align: justify;
+    }
+  }
+}

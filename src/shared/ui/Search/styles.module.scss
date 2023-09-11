@@ -1,0 +1,31 @@
+.find-block {
+  position: relative;
+
+  input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #E6ECF0;
+    border-radius: 10px;
+    padding: 8px 35px 8px 8px;
+    width: 100%;
+    font-family: 'Pt Sans', Tahoma, sans-serif;
+    outline: none;}
+
+  input[type="submit"] {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    padding: 0;
+    border-radius: 5px;
+    width: 35px;
+    text-indent: -999999px;
+    background-image: url("../../assets/images/search.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+}

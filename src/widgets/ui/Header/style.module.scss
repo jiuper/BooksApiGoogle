@@ -1,0 +1,45 @@
+.header {
+  border-bottom: 1px solid rgba(173, 167, 203, 0.28);
+
+  .header-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    .h-title {
+      flex: 0 0 400px;
+    }
+
+    .h-tools {
+      flex: 0 0 500px;
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+
+      .t-search {
+        width: 100%;
+
+      }
+
+      .t-utils {
+        display: flex;
+        gap: 50px;
+
+        .t-filter {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        }
+
+        .t-sorting {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        }
+      }
+
+    }
+  }
+}

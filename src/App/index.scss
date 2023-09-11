@@ -1,0 +1,60 @@
+@import "styles/vars";
+@import "styles/normalize";
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+
+}
+
+//css animation spinner-loader
+.c-loader{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #336ef5;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+
+  .error{
+    color: red;
+    border: 1px solid red;
+    padding: 25px 10px;
+    border-radius: 15px;
+  }
+  .error:hover{
+    background: red;
+    color: white;
+  }
+
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+
+
+
+
